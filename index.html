@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Lê Thành Khang</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: rgb(221, 240, 255);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .left,
+    .right {
+      padding: 20px;
+    }
+
+    .left {
+      width: 40%;
+      background-color: #dae7ff;
+      border-right: 1px solid #ddd;
+      text-align: center;
+    }
+
+    .right {
+      width: 60%;
+    }
+
+    .profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .profile h1 {
+        font-family: 'Dancing Script', cursive;
+      font-size: 2em;
+      color: #af5555;
+      margin: 0;
+    }
+
+    .profile p {
+      color: #00476b;
+      margin: 5px 0;
+    }
+
+    .timeline h2 {
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+      color: #b13b41;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 50px;
+    }
+
+    .event {
+      border-left: 3px solid #333;
+      padding-left: 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .event::before {
+      content: "";
+      position: absolute;
+      left: -7px;
+      top: 10px;
+      width: 14px;
+      height: 14px;
+      background-color: #333;
+      border-radius: 50%;
+    }
+
+    .event h3 {
+      font-size: 1.5em;
+      color: #d15ac1;
+      margin: 0;
+    }
+
+    .event p {
+      color: #942929;
+      margin: 5px 0;
+    }
+    .event h33{
+ font-size: 1.5em;
+color: #515dc9;
+margin: 0; 
+}
+.event h34{
+  font-size: 1.5em;
+color: #c25757;
+margin: 0;
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Bên trái: Thông tin cá nhân -->
+    <div class="left">
+      <div class="profile">
+       <img src="https://scontent.fvca1-3.fna.fbcdn.net/v/t39.30808-6/469286450_994750382488793_1199255218418809249_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEfW7YfA50hJ6QV6hiyOnqyq0z4tV0ez36rTPi1XR7Pfnc7D3jxIOacZJOmETsu6GjZ-RIm3kxN6Mt_-hV6jzB1&_nc_ohc=9nXyuVkij1oQ7kNvgEnUb_p&_nc_zt=23&_nc_ht=scontent.fvca1-3.fna&_nc_gid=AkQZVBalpPVLJERQo-38Tc7&oh=00_AYD8viqIItTQdbcpMh3cOU9s_2sLGvbkhgbUIh2Legti3Q&oe=6754A33B" alt="anh ca nhan">
+        <h1>Lê Thành Khang</h1>
+        <p>Ngày sinh: 24/08/2007</p>
+        <p>Email:  lethanhkhang2021@gmail.com</p>
+        <p>Điện thoại: 0797937113 </p>
+        <p>Địa chỉ: Tân Qưới Phường 2 Thị xã Ngã Năm Sóc Trăng</p>
+      </div>
+    </div>
+
+    <!-- Bên phải: Các sự kiện quan trọng -->
+    <div class="right">
+      <div class="timeline">
+        <h2>Mốc Son</h2>
+
+        <div class="event">
+          <h33>Lớp 10 (Năm học 2022-2023)</h33>
+          <ul>
+            <li>Đậu tuyển sinh 10 vào trường THPT Mai Thanh Thế với 36,75đ</li>
+            <li>Đậu nguyện vọng 1 vào tổ hợp 1 lớp 10A2.</li>
+            <li> Là thành viên tổ 3 </li>
+          </ul>
+         
+        </div>
+
+        <div class="event">
+          <h34>Lớp 11 (Năm học 2023-2024)</h34>
+          <ul>
+            <li>Tiếp tục là thành viên của tổ 3 lớp 11A2.</li>
+          
+          </ul>
+        </div>
+
+        <div class="event">
+          <h3>Lớp 12 (Năm học 2024-2025)</h3>
+          <ul>
+            <li>ước mơ đậu vào trường  UEL </li>
+            <li> đỗ nguyện vọng 1 trong kì Tốt nghiệp THPT Quốc gia 2025</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
